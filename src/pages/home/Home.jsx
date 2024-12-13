@@ -30,7 +30,7 @@ function Home() {
 
   return (
      <div className={styles.container}>
-     <img className={styles.add}>{img</button>
+     <img className={styles.add}></img>
       <header className={styles.top}>     
         <div className={styles.head}> 
         <img
