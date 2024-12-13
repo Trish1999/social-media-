@@ -1,8 +1,9 @@
 .main{
     display: flex;
+    justify-content: center;
     align-content: center;
     height:100vh;
-    width:25vw;
+    width:20vw;
 }
 .container{
     height:100%;
@@ -50,25 +51,29 @@
 .btn:hover{
     background: #000;
 }
-@media screen and (max-width: 768px) {
 
-.main{
-    display:inline;
-    justify-items: center;
-    height: 100vh;
-    width:100vw;
-}
-.topImg{
-    width:100%;
-    object-fit:cover;
-}
-.bottom{
-    height:20vh;
-    margin-top: -10vh;
-}
+@media screen and (min-width: 768px) {
 
-    .logo {
-        width: 20rem;
+    .topImg {
+        width: 100%;
+        height: auto;
     }
 
+    .bottom {
+        height: 30vh;
+        margin-top: -150px;
+        padding: 1rem;
+        border-radius: 36px;
+    }
+
+    .logo {
+        width: 17rem;
+        padding: 1rem;
+    }
+
+    .btn {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.9rem;
+    }
 }
+
